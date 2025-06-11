@@ -20,5 +20,5 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          cd Source
+          cd Source/html
           surge . delizioso-pizza.surge.sh --token $SURGE_TOKEN
